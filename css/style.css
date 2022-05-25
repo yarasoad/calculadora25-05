@@ -1,0 +1,67 @@
+/*para a pagina toda*/
+*{
+    margin: 4; /*margem*/
+    padding: 2; /*preenchimento*/
+    box-sizing: border-box; /*dimensão da caixa: caixa de borda*/
+    font-size: 35px; /*tamanho da fonte*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*corpo da pag*/
+body{
+    text-align: center; /*alinhamento de texto*/
+    background-color: rgb(0, 0, 0); /*fundo de tudo (do site)*/
+    color: rgb(255, 255, 255); /*cor do texto "calculadora"*/
+}
+
+/*lista*/
+li{
+    list-style: none; /*estilo da lista: nenhum*/
+}
+
+/*caixa de resultados da calculadora*/
+#container{
+    width: 290px; /*largura*/
+    text-align: center; 
+    height:auto; /*altura*/
+    margin: 4px auto; 
+}
+
+/*estrutura do corpo da calculadora(fundo)*/
+#calculadora{
+    width: 500px;
+    height: 500px;
+    margin: 10 auto;
+    padding: 2px;
+    background-color: rgb(120, 76, 223);
+}
+
+/*input=função (botao,clique CAIXA DE RESULTADO)*/
+.input-valor{
+    margin: 15px auto;
+    width: 95%;
+    height: 78px;
+    font-size: 40px;
+    overflow: hidden; 
+    text-align: right;
+    color:rgb(0, 0, 0); /*cor dos numeros das teclas*/
+    padding: 4px;
+    background-color: rgba(117, 111, 179, 0.897); /*cor do fundo da caixa de resultados da calculadora*/
+    box-shadow: inset 1px 1px 3px 2px rgba(24, 1, 88, 0.753); /*fundo da caixa de resultados da calculadora (sombreamento da caixa)*/
+}
+
+/*botoes dos numeros*/
+.key li{
+    width: 100px;
+    height: 60px;
+    border-radius: 3px; /*raio da borda (arredondar borda)*/
+    color:rgb(255, 255, 255);
+    background-color:rgb(102, 96, 139);
+    cursor: pointer; 
+    float: left;
+    margin: 10px 10px 5px 10px;
+    line-height: 59px;
+    text-align: center;
+    box-shadow: 0px 2px 3px 0px;
+}
+
